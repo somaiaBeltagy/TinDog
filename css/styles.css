@@ -1,0 +1,171 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Ubuntu"
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* title section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.heading {
+  text-align: left;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.fa-apple {
+  color: white;
+  margin-right: 5px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.iphone {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* features */
+.features-icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+  width: 90%;
+  font-size: 3rem;
+}
+
+.features-icons:hover {
+  color: #ff4c68;
+}
+
+.features-headers {
+  font-size: 1.5rem;
+}
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.features-paragraph {
+  color: #8f8f8f;
+  font-weight: 900;
+}
+
+/* testimonial Serction */
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonials-header {
+  line-height: 1.5;
+}
+
+.testimonials-img {
+  border-radius: 100%;
+  width: 10%;
+  margin: 2%;
+}
+
+/* press section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing cards */
+.card {
+  margin: 5% 1%;
+}
+
+#pricing {
+  padding: 100px 0;
+}
+
+.card-btn {
+  padding: 2% 5rem;
+}
+
+.card-paragraph {
+  color: #8f8f8f;
+  font-weight: normal;
+}
+
+/* call to action section */
+.footer-heading {
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+/* copyright */
+.footer-icon {
+  padding: 3rem;
+}
+
+.footer-icon:hover {
+  color: #8f8f8f;
+}
+
+.copyright-paragraph {
+  color: #8f8f8f;
+  font-weight: 100;
+}
+
+/* media query */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
